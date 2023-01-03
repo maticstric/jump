@@ -6,7 +6,6 @@ typedef struct {
     float y;
 } Vector2;
 
-Vector2 vector2_add(Vector2 v1, Vector2 v2);
+extern Vector2 vector2_add(Vector2 v1, Vector2 v2);
 
 #endif
-
